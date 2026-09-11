@@ -1,0 +1,49 @@
+DATE: Friday 11 September 2026 01:33:26 PM IST
+Hostname: harish-vm
+cpu load:
+ 13:33:26 up 36 min,  1 user,  load average: 0.01, 0.12, 0.25
+memory:
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       1.2Gi       887Mi       125Mi       1.7Gi       2.2Gi
+Swap:          2.1Gi       0.0Ki       2.1Gi
+disk usage:
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           390M  1.9M  388M   1% /run
+/dev/sda3        20G  9.7G  8.4G  54% /
+tmpfs           2.0G     0  2.0G   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/sda2       512M  5.3M  507M   2% /boot/efi
+tmpfs           390M  2.4M  387M   1% /run/user/1000
+top processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+harish      1583  4.7  7.1 4650288 285528 ?      Ssl  12:58   1:39 /usr/bin/gnome-shell
+harish      2040  2.5  2.2 881916 89320 ?        Ssl  12:58   0:52 /usr/libexec/gnome-terminal-server
+harish      3980  1.1  1.7 243240 71184 ?        S    13:18   0:10 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.ZN9QV3 -listen 4 -listen 5 -displayfd 6 -initfd 7
+harish      1712  0.6  0.3 397256 12016 ?        Sl   12:58   0:13 /usr/bin/ibus-daemon --panel disable
+root           1  0.2  0.2 166600 11724 ?        Ss   12:57   0:04 /sbin/init splash
+ ===================
+===== system monitoring =====
+DATE: Friday 11 September 2026 01:36:30 PM IST
+Hostname: harish-vm
+cpu load:
+ 13:36:30 up 39 min,  1 user,  load average: 0.08, 0.09, 0.21
+memory:
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       1.2Gi       881Mi       125Mi       1.7Gi       2.2Gi
+Swap:          2.1Gi       0.0Ki       2.1Gi
+disk usage:
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           390M  1.9M  388M   1% /run
+/dev/sda3        20G  9.7G  8.4G  54% /
+tmpfs           2.0G     0  2.0G   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/sda2       512M  5.3M  507M   2% /boot/efi
+tmpfs           390M  2.4M  387M   1% /run/user/1000
+top processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+harish      1583  4.5  7.1 4650400 285592 ?      Ssl  12:58   1:44 /usr/bin/gnome-shell
+harish      2040  2.4  2.2 881916 89320 ?        Ssl  12:58   0:55 /usr/libexec/gnome-terminal-server
+harish      3980  0.9  1.7 243240 71184 ?        S    13:18   0:10 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.ZN9QV3 -listen 4 -listen 5 -displayfd 6 -initfd 7
+harish      1712  0.6  0.3 397256 12016 ?        Sl   12:58   0:14 /usr/bin/ibus-daemon --panel disable
+root           1  0.2  0.2 166600 11724 ?        Ss   12:57   0:05 /sbin/init splash
+ ===================
